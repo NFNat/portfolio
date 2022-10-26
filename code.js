@@ -62,7 +62,7 @@ closeModalContact2.addEventListener('click', ()=>{
 
 //Modal proyectos
 
-const openModalProyectos = document.querySelector(".projects"); 
+const openModalProyectos = document.querySelector("[projects]"); 
 const modalProject = document.querySelector(".modal__Proyectos");
 const closeModalProject = document.querySelector(".modal__close__proyectos")
 
@@ -75,7 +75,26 @@ closeModalProject.addEventListener('click', ()=>{
     modalProject.classList.remove("modal--show")    
 })
 
-//Modal proyectos
+//Modal proyectos2
+
+const openModalProyectos2 = document.querySelector("[projects2]"); 
+const modalProject2 = document.querySelector(".modal__Proyectos");
+const closeModalProject2 = document.querySelector(".modal__close__proyectos")
+
+openModalProyectos2.addEventListener('click', ()=>{
+    event.preventDefault();
+    modalProject2.classList.add("modal--show")    
+})
+closeModalProject2.addEventListener('click', ()=>{
+    event.preventDefault();
+    modalProject2.classList.remove("modal--show")    
+})
+
+
+
+
+
+//Modal experiencia
 
 const openModalExperiencia = document.querySelector(".experience"); 
 const modalExperiencia = document.querySelector(".modal__Experiencia");
@@ -89,6 +108,8 @@ closeModalExperiencia.addEventListener('click', ()=>{
     event.preventDefault();
     modalExperiencia.classList.remove("modal--show")    
 })
+
+
 
 //Modal Hobbies
 
@@ -105,7 +126,7 @@ closeModalHobbies.addEventListener('click', ()=>{
     modalHobbies.classList.remove("modal--show")    
 })
 
-//Modal Hobbies
+//Modal Idiomas
 
 const openModalLanguajes = document.querySelector(".languages"); 
 const modalLanguajes= document.querySelector(".modal__Languages");
@@ -134,6 +155,24 @@ closeModalEducation.addEventListener('click', ()=>{
     event.preventDefault();
     modalEducation.classList.remove("modal--show")    
 })
+
+
+//Modal Educacion 2
+
+const openModalEducation2 = document.querySelector("[education2]"); 
+const modalEducation2= document.querySelector(".modal__Education");
+const closeModalEducation2 = document.querySelector(".modal__close__education")
+
+openModalEducation2.addEventListener('click', ()=>{
+    event.preventDefault();
+    modalEducation2.classList.add("modal--show")    
+})
+closeModalEducation2.addEventListener('click', ()=>{
+    event.preventDefault();
+    modalEducation2.classList.remove("modal--show")    
+})
+
+
 
 //Modal Mondrian
 
