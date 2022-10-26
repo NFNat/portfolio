@@ -1,0 +1,275 @@
+:root {
+    --white-mondrian: #d2d6d5;
+    --red-mondrian: #dc422a;
+    --yellow-mondrian: #efc24d;
+    --blue-mondrian: #003f72;
+    --black-mondrian: #0a040b;
+
+    --transition: 500ms;
+    --bauhaus : font-family: 'MuseoModerno';
+    
+}
+body {
+    font-family: 'MuseoModerno', cursive;
+    /*font-family: 'Open Sans', sans-serif;*/
+    background: var(--black-mondrian);
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.7fr 0.8fr 0.7fr 1.8fr 1fr 1.3fr 0.7fr;
+    grid-template-rows: 0.5fr 1.7fr 1.9fr 1.1fr 0.7fr 0.9fr 0.6fr;
+    gap: 1% 0.7%;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "blanco1 blanco1 social-media social-media nav-bar nav-bar blanco3"
+        "blanco2 personal personal personal about-me about-me blanco3"
+        "donwnload__cv personal personal personal hard-skills soft-skills blanco3"
+        "donwnload__cv contact contact projects experience experience blanco3"
+        "hobbies contact contact languages education education mondrian"
+        "hobbies blanco5 blanco5 crud education education mondrian"
+        "hobbies footer footer footer footer footer mondrian";
+    height: 100vh;
+    
+    
+}
+
+.donwnload__cv {
+    grid-area: donwnload__cv;
+    background: var(--white-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    writing-mode: vertical-lr;
+    transition: 0ms;
+    transform: rotate(180deg);
+    justify-content: center;
+    align-items: center;  
+
+    
+}
+
+.personal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "personal__picture personal__picture personal__picture"
+        "personal__picture personal__picture personal__picture"
+        "personal_data personal_data personal_data";
+    grid-area: personal;
+    background: var(--red-mondrian);
+}
+
+.personal__picture {
+    grid-area: personal__picture;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.personal_data {
+    grid-area: personal_data;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.about-me {
+    grid-area: about-me;
+    background: var(--yellow-mondrian);    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.hard-skills{
+    grid-area: hard-skills;
+    background: var(--white-mondrian);
+    transition: var(--transition);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.hard-skills:hover,
+.soft-skills:hover,
+.education:hover,
+.experience:hover,
+.projects:hover,
+.hobbies:hover,
+.donwnload__cv:hover,
+.mondrian:hover, 
+.languages:hover {
+    transform: scale(0.90);
+
+}
+
+.soft-skills {
+    grid-area: soft-skills;
+    background: var(--white-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.contact {
+    grid-area: contact;
+    color: var(--blue-mondrian);
+    background: var(--black-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+.contact:hover, .crud:hover{
+    transform: scale(0.90);
+    background-color: var(--blue-mondrian);
+
+    color: var(--black-mondrian);
+
+}
+.projects {
+    grid-area: projects;
+    background: var(--white-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.languages {
+    grid-area: languages;
+    background: var(--white-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.experience {
+    grid-area: experience;
+    background: var(--white-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.crud {
+    grid-area: crud;
+    background: var(--black-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--blue-mondrian);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.hobbies {
+    grid-area: hobbies;
+    background: var(--yellow-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    writing-mode: vertical-lr;
+    transition: 0ms;
+    transform: rotate(180deg);
+     
+}
+
+.mondrian {
+    grid-area: mondrian;
+    background: var(--red-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    /* transition: 0ms;
+    transform: rotate(180deg);   */
+}
+
+.social-media {
+    grid-area: social-media;
+    background: var(--white-mondrian);
+}
+
+.nav-bar {
+    grid-area: nav-bar;
+    background: var(--yellow-mondrian);
+}
+ul {
+    list-style: none;
+}
+.nav__bar{
+    display:inline;
+    padding: 1rem;   
+}
+.nav__bar a{
+    text-decoration: none;
+    color: var(--blue-mondrian);
+    font-weight: 600;
+    font-family: var(--bauhaus);    
+}
+.nav__bar a:hover{
+    text-shadow: 8px 8px 3px rgba(150, 150, 150, 0.95);
+}
+
+.education {
+    grid-area: education;
+    background: var(--blue-mondrian);
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+
+
+
+.blanco1 {
+    grid-area: blanco1;
+    background: var(--white-mondrian);
+}
+
+.blanco2 {
+    grid-area: blanco2;
+    background: var(--white-mondrian);
+}
+
+.blanco3 {
+    grid-area: blanco3;
+    background: var(--white-mondrian);
+}
+.blanco5 {
+    grid-area: blanco5;
+    background: var(--white-mondrian);
+}
+
+.footer {
+    grid-area: footer;
+    background: var(--white-mondrian);
+}
+
+
+
+
