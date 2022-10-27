@@ -9,40 +9,83 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;500&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
-    
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/media.css">
     <title>Document</title>
 </head>
 
 <div class="container">
+
     <div class="blanco1"></div>
     <div class="blanco2"></div>
-    <div class="donwnload__cv"> Descargar CV</div>
-    <div class="personal">
-      <div class="personal__picture"> foto</div>
-      <div class="personal_data"> Natalia Fuoco</div>
+
+    <div class="donwnload__cv">
+      <a href="./assets/Natalia Fuoco Resume.pdf" download="./assets/Natalia Fuoco Resume.pdf"
+        title="Descargar pdf de mi CV">Descargar CV</a>
     </div>
-    <div class="about-me">about</div>
-    <div class="hard-skills"> Hard SKills </div>
-    <div class="soft-skills ">Soft Skills</div>
-    <div class="contact" contact> contacto </div>
-    <div class="projects" projects>proyectos</div>
-    <div class="languages">Idiomas</div>
-    <div class="experience" >experience</div>
-    <div class="crud">crud</div>
+
+    <div class="personal">
+      <div class="personal__picture">
+        <img class="personal__picture__img"src="./assets/Hola.png" alt=""> 
+      </div>
+      
+      <div class="personal_data"> 
+        <div class="personal_data__nombre">Natalia Fuoco </div>
+        <div class="personal_data__profesion">Web Developer Full Stack</div> 
+      </div>
+    </div>
+
+
+    <div class="about-me">      
+      Soy desarrolladora web radicada en Argentina. Me apasionan los desafíos y el aprendizaje constante. Cuando no estoy resolviendo algún problema estoy pintando 😊 porque la pintura es mi otra pasión.
+    </div>
+    
+    <div class="hard-skills"> Hard SKills </div> <!--Contenido en un modal-->
+    <div class="soft-skills ">Soft Skills</div> <!---Contenido en un modal-->
+    <div class="contact" contact> contacto </div> <!---Contenido en un modall-->
+    <div class="projects" projects>proyectos</div> <!--t-Contenido en un modal -->
+    <div class="languages">Idiomas</div> <!---Contenido en un modal-->
+    <div class="experience" >experience</div> <!---Contenido en un modal-->
+    <div class="crud">crud</div> <!---Contenido en un modal // voy a ver si hago algo aca-->
     <div class="blanco3"></div>
-    <div class="hobbies">hobbies</div>
-    <div class="mondrian">mondrian</div>
-    <div class="social-media">redes sociales</div>
+    <div class="hobbies">hobbies</div> <!---Contenido en un modal -->
+    <div class="mondrian">mondrian</div>  <!---Contenido en un modal -->
+
+        <!-- Redes -->
+    <div class="social-media"> 
+      <ul>
+        <li class="nav__bar"><a href="#" contact2>
+            <a href="https://linkedin.com/in/nataliafuoco" target="_blank"><i class="fa-brands fa-linkedin texto "></i></a>
+          </a></li>
+        <li class="nav__bar">
+          <a href="https://github.com/NFNat" target="_blank"><i class="fa-brands fa-github texto"></i></a>
+        </li>
+        <li class="nav__bar">
+          <a href="https://instagram.com/fuoconatalia/" education2 target="_blank"><i
+              class="fa-brands fa-instagram texto"></i></a>
+        </li>
+        <li class="nav__bar">
+          <a href="mailto: natalia_fuoco@hotmail.com"><i class="fa-solid fa-at texto"></i></a>
+        </li>
+      </ul>
+    </div>
+
+      <!-- Barra de navegación -->
     <div class="nav-bar">
-    <ul>
-      <li class="nav__bar"><a href="#" contact2>contacto</a></li>
-      <li class="nav__bar"><a href="#" projects2>proyectos</a></li>
-      <li class="nav__bar"><a href="#" education2>educacion</a></li>
-    </ul> </div>
-    <div class="education"education>educacion</div>
+      <ul>
+        <li class="nav__bar"><a class="texto1" href="#" contact2>contacto</a></li>
+        <li class="nav__bar"><a class="texto1" href="#" projects2>proyectos</a></li>
+        <li class="nav__bar"><a class="texto1" href="#" education2>educacion</a></li>
+      </ul>
+    </div>
+
+
+    <div class="education"education>educacion</div> <!---Contenido en un modal -->
+
     <div class="blanco5"></div>
+
     <div class="footer">footer</div>
   </div>
 
@@ -126,8 +169,12 @@
     <!-- modal para mondrian -->
     <section class="modal__Mondrian ">
       <div class="modal__container__mondrian modal__container">
-          <h2 class="modal__title">Mondrian</h2>
-          <p class="modal__paragraph">explicar por que Mondrian, links con info</p>
+          <h2 class="modal__title"> ¿Por qué Mondrian?</h2>
+          <p class="modal__paragraph">La tematica de esta web esta basada en una de las pinturas mas famosas del pintor Piet Mondrian y el estilo Bauhaus.  Una de la características del estilo Bauhaus es la "Unión del Arte y la Tecnología", algo que me representa por completo. 
+
+          Dejo algunos links para seguir leyendo sobre el tema
+          
+             </p>
           <a href="" class="modal__close__mondrian"> Cerrar</a>
       </div>
     </section>
@@ -148,7 +195,7 @@
 
 
 
-
+    <script src="https://kit.fontawesome.com/5454830660.js" crossorigin="anonymous"></script>
 <script src="./code.js"></script>
 </body>
 </html>

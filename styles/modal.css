@@ -96,8 +96,8 @@
     background-color: var( --red-mondrian);
 }
 .modal__container__mondrian{
-    width: 75vw;
-    height: 75vh;
+    width: 50vw;
+    height: 70vh;
     border: var(--black-mondrian) solid 0.2rem;
     background-color: var( --yellow-mondrian);
 }
@@ -114,6 +114,7 @@
 }
 .modal__paragraph{
     margin-bottom: 10px;
+    font-size: 1.7rem;
 
 }
 .modal__close, 
