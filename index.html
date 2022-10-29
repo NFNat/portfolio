@@ -48,7 +48,28 @@
     <div class="projects" projects>proyectos</div> <!--t-Contenido en un modal -->
     <div class="languages">Idiomas</div> <!---Contenido en un modal-->
     <div class="experience" >experience</div> <!---Contenido en un modal-->
-    <div class="crud">crud</div> <!---Contenido en un modal // voy a ver si hago algo aca-->
+
+
+
+    <!-- Clima -->
+
+
+    <div class="crud">
+       <div class="temp">
+          <div id="ubicacion"></div>
+        </div>
+        <div class="descr">
+          <div id="temperatura__valor"></div>
+          <div  id="temperatura__descripcion"></div>
+        </div>
+        <div class="icono">
+          <img id="icono__animado" src="" alt="" ></img>
+        </div>
+   
+    </div> 
+    
+    
+    
     <div class="blanco3"></div>
     <div class="hobbies">hobbies</div> <!---Contenido en un modal -->
     <div class="mondrian">mondrian</div>  <!---Contenido en un modal -->
@@ -56,14 +77,14 @@
         <!-- Redes -->
     <div class="social-media"> 
       <ul>
-        <li class="nav__bar"><a href="#" contact2>
+        <li class="nav__bar"><a href="#" >
             <a href="https://linkedin.com/in/nataliafuoco" target="_blank"><i class="fa-brands fa-linkedin texto "></i></a>
           </a></li>
         <li class="nav__bar">
           <a href="https://github.com/NFNat" target="_blank"><i class="fa-brands fa-github texto"></i></a>
         </li>
         <li class="nav__bar">
-          <a href="https://instagram.com/fuoconatalia/" education2 target="_blank"><i
+          <a href="https://instagram.com/fuoconatalia/" target="_blank"><i
               class="fa-brands fa-instagram texto"></i></a>
         </li>
         <li class="nav__bar">
@@ -82,11 +103,13 @@
     </div>
 
 
-    <div class="education"education>educacion</div> <!---Contenido en un modal -->
+    <div class="education" education>educacion</div> <!---Contenido en un modal -->
 
     <div class="blanco5"></div>
 
-    <div class="footer">footer</div>
+    <div class="footer">
+      
+      Natalia Fuoco &copy 2022</div>
   </div>
 
 
@@ -169,14 +192,40 @@
     <!-- modal para mondrian -->
     <section class="modal__Mondrian ">
       <div class="modal__container__mondrian modal__container">
-          <h2 class="modal__title"> ¿Por qué Mondrian?</h2>
-          <p class="modal__paragraph">La tematica de esta web esta basada en una de las pinturas mas famosas del pintor Piet Mondrian y el estilo Bauhaus.  Una de la características del estilo Bauhaus es la "Unión del Arte y la Tecnología", algo que me representa por completo. 
+        <div class="modal__container__mondrian__grilla">
+        
+          <div class="modal__tiitulo__mondrian">
+            <h2 > ¿Por qué Mondrian?</h2>
+          </div>
+          <div class="modal__cuerpo__mondrian">
+            <p >La tematica de esta web esta basada en una de las pinturas mas famosas del pintor Piet Mondrian     <a href="https://historia-arte.com/obras/mondrian-composicion-en-rojo-amarillo-y-azul" target="_blank"> (Composición en rojo, amarillo, azul y negro)</a> y el estilo Bauhaus.  Una de la características del estilo Bauhaus es la <span class="negrita"> "Unión del Arte y la Tecnología" </span>, algo que me representa por completo. 
 
-          Dejo algunos links para seguir leyendo sobre el tema
+              Dejo algunos links para seguir leyendo sobre el tema
+                 </p>  
+          </div>
+          <div class="modal__link__mondrian">
+         <ul>
+          <li> <a href="https://historia-arte.com/articulos/la-bauhaus" target="_blank">Bauhaus: La mayor escuela de arte del mundo</a></li>
+          <li><a href="https://historia-arte.com/artistas/piet-mondrian" target="_blank">Piet Mondrian</a></li>
+          <li><a href="https://historia-arte.com/movimientos/neoplasticismo" target="_blank">Neoplasticismo</a></li>
+         </ul>
+           
+            
           
-             </p>
-          <a href="" class="modal__close__mondrian"> Cerrar</a>
+          </div>
+        
+
+
+          <div class="modal__pie__mondrian"> <a href="" class="modal__close__mondrian"> Cerrar</a></div>
+       
+
+
+
+         
+          
+          
       </div>
+    </div>
     </section>
 
     <!-- modal para crud -->
@@ -194,8 +243,8 @@
 
 
 
-
+    <script src="./clima.js"></script>
     <script src="https://kit.fontawesome.com/5454830660.js" crossorigin="anonymous"></script>
-<script src="./code.js"></script>
+<script  src="./code.js"></script>
 </body>
 </html>

@@ -191,15 +191,18 @@ closeModalMondrian.addEventListener('click', ()=>{
 
 //Modal Mondrian
 
-const openModalCrud = document.querySelector(".crud"); 
-const modalCrud= document.querySelector(".modal__Crud");
-const closeModalCrud = document.querySelector(".modal__close__crud")
+// const openModalCrud = document.querySelector(".crud"); 
+// const modalCrud= document.querySelector(".modal__Crud");
+// const closeModalCrud = document.querySelector(".modal__close__crud")
 
-openModalCrud.addEventListener('click', ()=>{
-    event.preventDefault();
-    modalCrud.classList.add("modal--show")    
-})
-closeModalCrud.addEventListener('click', ()=>{
-    event.preventDefault();
-    modalCrud.classList.remove("modal--show")    
-})
+// openModalCrud.addEventListener('click', ()=>{
+//     event.preventDefault();
+//     modalCrud.classList.add("modal--show")    
+// })
+// closeModalCrud.addEventListener('click', ()=>{
+//     event.preventDefault();
+//     modalCrud.classList.remove("modal--show")    
+// })
+
+
+

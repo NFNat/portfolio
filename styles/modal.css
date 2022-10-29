@@ -22,6 +22,7 @@
 }
 
 
+
 .modal--show{
     opacity: 1;
     pointer-events: unset;
@@ -101,6 +102,63 @@
     border: var(--black-mondrian) solid 0.2rem;
     background-color: var( --yellow-mondrian);
 }
+
+
+.modal__container__mondrian__grilla {  
+
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "modal__tiitulo__mondrian modal__tiitulo__mondrian modal__tiitulo__mondrian"
+      "modal__cuerpo__mondrian modal__cuerpo__mondrian modal__cuerpo__mondrian"
+      "modal__link__mondrian modal__link__mondrian modal__link__mondrian"
+      "modal__pie__mondrian modal__pie__mondrian modal__pie__mondrian";
+  }
+  
+  .modal__tiitulo__mondrian {
+      grid-area: modal__tiitulo__mondrian;
+      display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2rem;
+    padding: 2rem 2rem 3rem 2rem;
+    font-weight: bold;
+
+
+  }
+
+  .modal__cuerpo__mondrian {
+      grid-area: modal__cuerpo__mondrian;
+      font-size: 1.2rem;
+      line-height: 2rem;
+
+  }
+
+  .modal__link__mondrian {
+      grid-area: modal__link__mondrian;
+      display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 1.2rem;
+      line-height: 2rem;
+  }
+
+  .modal__pie__mondrian {
+      grid-area: modal__pie__mondrian;
+      display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+
+
+
+
+
+
 
 .modal__container__crud{
     width: 75vw;

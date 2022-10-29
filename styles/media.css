@@ -1,5 +1,36 @@
 @media  screen and (min-width: 1024px) {
   
+  .modal__tiitulo__mondrian {
+   
+ margin-top: -3rem;  
+}
+
+.modal__cuerpo__mondrian {
+   font-size: 1.2rem;
+   line-height: 1.7rem;
+   padding-bottom: 1rem;
+   
+
+}
+
+.modal__link__mondrian {
+    
+ font-size: 1.2rem;
+   line-height: 1.5rem;
+   
+}
+
+
+
+.modal__container__mondrian{
+ width: 70vw;
+ height: 80vh;
+ 
+ 
+}
+  
+  
+  
 }
 
 /*Tablets*/
@@ -15,6 +46,41 @@
         "hobbies footer footer footer footer footer mondrian";  
           
     }
+
+
+
+    .modal__tiitulo__mondrian {
+      font-size: 1.5rem;
+   font-weight: bold;
+   margin-top: -2rem;  
+  }
+  
+  .modal__cuerpo__mondrian {
+     font-size: 1.2rem;
+     line-height: 1.5rem;
+     
+  
+  }
+  
+  .modal__link__mondrian {
+      
+   font-size: 1.2rem;
+     line-height: 1.3rem;
+     
+  }
+  
+  .modal__pie__mondrian {
+    margin-top: -4rem;
+  
+        
+  }
+  
+  .modal__container__mondrian{
+   width: 70vw;
+   height: 80vh;
+   
+   
+  }
     
   
 }
@@ -47,6 +113,48 @@
           "personal__picture personal__picture personal_data";
         
       }
+
+      
+      
+  .modal__tiitulo__mondrian {
+    font-size: 1.5rem;
+
+ font-weight: bold;
+ margin-top: -2rem;
+ 
+
+
+}
+
+.modal__cuerpo__mondrian {
+   font-size: 1.2rem;
+   line-height: 1.3rem;
+   margin-top: -2rem;
+   
+
+}
+
+.modal__link__mondrian {
+    
+ font-size: 1.2rem;
+   line-height: 1.3rem;
+   
+}
+
+.modal__pie__mondrian {
+  margin-top: -4rem;
+
+      
+}
+
+.modal__container__mondrian{
+ width: 70vw;
+ height: 80vh;
+ 
+ 
+}
+
+
       
     
 }
@@ -76,12 +184,62 @@
         
       }
       .texto{
-        font-size: 1rem;
-        
+        font-size: 1rem;        
     }
     .texto1{
         font-size: 0.7rem;
-        font-weight: 300;;
+        font-weight: 300;
     }
-    
+
+    .descr {
+        font-size: 0.5rem;        
+      }
+      .temp {
+        font-size: 0.5rem;        
+      }      
+      .icono img{
+        width:30px
+
+      }
+
+
+      
+  .modal__tiitulo__mondrian {
+     font-size: 1rem;
+  padding: 0rem;
+  font-weight: bold;
+  margin-top: -2rem;
+  
+
+
+}
+
+.modal__cuerpo__mondrian {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-top: -2rem;
+
+}
+
+.modal__link__mondrian {
+     
+  font-size: 1rem;
+    line-height: 1rem;
+    margin-top: -2rem;
+}
+
+.modal__container__mondrian{
+  width: 70vw;
+  height: 80vh;
+  
+  
+}
+
+.modal__pie__mondrian {
+  margin-top: -4.1rem;
+
+      
+}
+
+
 }
