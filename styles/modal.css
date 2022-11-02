@@ -43,11 +43,10 @@
 }
 
 .modal__container__hard{
-    width: 75vw;
-    height: 75vh;
+    width: 70vw;
+    height: 90vh;
     border: var(--black-mondrian) solid 0.2rem;
     background-color: var(--blue-mondrian);
-
 }
 
 .modal__container__soft{
@@ -353,3 +352,39 @@ margin-top: -1rem;
     color: var(--red-mondrian) ;
     background-color: var(--white-mondrian);
 }
+
+
+
+.hard__skills__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    
+  }
+  
+  .hard__skills__item {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding: 1.5rem;
+    color: var(--yellow-mondrian);
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    
+  }
+ .hard__skills__icon{
+    padding: 1rem;
+    font-size: 4rem;
+    width: 50%;
+ } 
+ .hard__skills__text{
+    padding: 1rem;
+    font-size: 1rem;
+ }

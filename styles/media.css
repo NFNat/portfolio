@@ -20,7 +20,7 @@
  height: 80vh;
 }
   
-  
+
   
 }
 
@@ -37,69 +37,55 @@
         "hobbies footer footer footer footer footer mondrian";  
           
     }
-    .personal__picture__img{
-      
-      max-width: 15rem; 
-      
-  }
+      .personal__picture__img {
 
+        max-width: 15rem;
+      }
 
+      .modal__tiitulo__mondrian {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: -2rem;
+      }
 
-    .modal__tiitulo__mondrian {
-      font-size: 1.5rem;
-   font-weight: bold;
-   margin-top: -2rem;  
-  }
-  
-  .modal__cuerpo__mondrian {
-     font-size: 1.2rem;
-     line-height: 1.5rem;
-     
-  
-  }
-  
-  .modal__link__mondrian {
-      
-   font-size: 1.2rem;
-     line-height: 1.3rem;
-     
-  }
-  
-  .modal__pie__mondrian {
-    margin-top: -4rem;
-  
-        
-  }
-  
-  .modal__container__mondrian{
-   width: 70vw;
-   height: 80vh;
-   
-   
-  }
+      .modal__cuerpo__mondrian {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+      }
 
+      .modal__link__mondrian {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+      }
 
-  .pinturas {
-    width: 70%; 
-   border: #a7a7a7 solid 0.2rem;
-   
-   
-  }
-  .imagen__1,
-    .imagen__2,
-    .imagen__3,
-    .imagen__4,
-    .imagen__5,
-    .imagen__6,
-    .imagen__7,
-    .imagen__8,
-    .imagen__9,
-    .imagen__10  {   
+      .modal__pie__mondrian {
+        margin-top: -4rem;
+      }
+
     
-     font-size: 0.7rem;
-       
+
+      .pinturas {
+        width: 70%; 
+      border: #a7a7a7 solid 0.2rem;
+      }
+      .imagen__1,
+      .imagen__2,
+      .imagen__3,
+      .imagen__4,
+      .imagen__5,
+      .imagen__6,
+      .imagen__7,
+      .imagen__8,
+      .imagen__9,
+      .imagen__10  {       
+      font-size: 0.7rem;       
+    }
+    .modal__container__hard{
+      width: 90vw;
+      height: 90vh;
   }
     
+  
   
 }
 
@@ -199,7 +185,27 @@
      
 }
 
-    
+.hard__skills__item {
+  padding: 1rem;
+
+  
+}
+
+.modal__container__hard{
+  width: 90vw;
+  height: 90vh;
+}
+
+.hard__skills__icon{
+  padding: 0.5rem;
+  font-size: 3rem;
+  width: 30%;
+} 
+.hard__skills__text{
+  padding: 1rem;
+  font-size: 1rem;
+}
+
 }
 
 
@@ -308,6 +314,17 @@
   
    font-size: 0.5rem;
      
+}
+.hard__skills__icon{
+  padding: 1rem;
+  font-size: 2rem;
+  width: 30%;
+} 
+.hard__skills__item {
+  
+  padding: 0.6rem;
+ 
+  
 }
 
 }
