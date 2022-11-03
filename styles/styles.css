@@ -327,11 +327,16 @@ a{
 .blanco1 {
     grid-area: blanco1;
     background: var(--white-mondrian);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blanco2 {
     grid-area: blanco2;
     background: var(--white-mondrian);
+   
+    
 }
 
 .blanco3 {
