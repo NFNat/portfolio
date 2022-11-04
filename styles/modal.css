@@ -387,4 +387,17 @@ margin-top: -1rem;
  .hard__skills__text{
     padding: 1rem;
     font-size: 1rem;
+    text-decoration: none;
+ }
+ .hard__skills__texto__titulo{
+    padding: 1rem;
+ }
+ .hard__skills__texto__link{
+    cursor: pointer;
+    transition: 600ms;
+ }
+ .hard__skills__texto__link:hover{
+    text-shadow: 8px 8px 3px rgba(150, 150, 150, 0.95);
+    transform: scale(1.2);
+
  }
