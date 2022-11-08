@@ -1,0 +1,130 @@
+
+
+.modal__container__hobbies{
+    width: 75vw;
+    height: 90vh;
+    border: var(--black-mondrian) solid 0.2rem;
+    background-color: var( --white-mondrian);
+}
+
+.container__pinturas {  
+    margin-top: -1rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;    
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagen__1 imagen__1 imagen__2 imagen__2 imagen__3 imagen__3"
+      "imagen__1 imagen__1 imagen__2 imagen__2 imagen__3 imagen__3"
+      "imagen__4 imagen__4 imagen__5 imagen__5 imagen__3 imagen__3"
+      "imagen__4 imagen__4 imagen__5 imagen__5 imagen__6 imagen__6"
+      "imagen__7 imagen__7 imagen__5 imagen__5 imagen__6 imagen__6"
+      "imagen__7 imagen__7 imagen__8 imagen__9 imagen__10 imagen__10"
+      "imagen__7 imagen__7 imagen__8 imagen__9 imagen__10 imagen__10";
+  }  
+
+  .imagen__1,
+  .imagen__2,
+  .imagen__3,
+  .imagen__4,
+  .imagen__5,
+  .imagen__6,
+  .imagen__7,
+  .imagen__8,
+  .imagen__9,
+  .imagen__10  {    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   transition: 600ms;
+   cursor: pointer;
+   font-size: 0.8rem;     
+}
+.imagen__titulo{
+  padding-bottom: 0.5rem;
+}
+.imagen__descripcion {
+  padding-top: 0.5rem ;
+}
+  
+.imagen__1 {
+    grid-area: imagen__1;
+}
+
+.imagen__2 {
+    grid-area: imagen__2;
+}
+
+.imagen__3 {
+    grid-area: imagen__3;
+}
+
+.imagen__5 {
+    grid-area: imagen__5;
+}
+
+.imagen__4 {
+    grid-area: imagen__4;
+}
+
+.imagen__6 {
+    grid-area: imagen__6;
+}
+
+.imagen__7 {
+    grid-area: imagen__7;
+}
+
+.imagen__8 {
+    grid-area: imagen__8;
+}
+
+.imagen__9 {
+    grid-area: imagen__9;
+}
+
+.imagen__10 {
+    grid-area: imagen__10;
+}
+
+.imagen__1:hover,
+.imagen__2:hover,
+.imagen__3:hover,
+.imagen__4:hover,
+.imagen__5:hover,
+.imagen__6:hover,
+.imagen__7:hover,
+.imagen__8:hover,
+.imagen__9:hover,
+.imagen__10:hover {
+    transform: scale(1.2);
+}
+
+.pinturas {
+    width: 35%;
+    border: #a7a7a7 solid 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.pinturas__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen__cuadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__close__hobbies{
+    margin-top: -1rem;
+    }
+
+    .modal__title__pinturas {
+        font-size: 1.5rem;
+        
+    }

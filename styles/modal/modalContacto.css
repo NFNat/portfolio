@@ -1,0 +1,7 @@
+.modal__container__contacto{
+    width: 75vw;
+    height: 75vh;
+    border: var(--black-mondrian) solid 0.2rem;
+    background-color: var( --yellow-mondrian);
+   
+}

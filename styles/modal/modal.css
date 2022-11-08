@@ -1,0 +1,91 @@
+.modal__Hard,
+.modal__Soft,
+.modal__Contacto,
+.modal__Proyectos, 
+.modal__Experiencia, 
+.modal__Hobbies, 
+.modal__Languages, 
+.modal__Education, 
+.modal__Mondrian, 
+.modal__Crud{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;   
+}
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform:  translateY(0);
+    --transition: transform .8s ;
+}
+
+.modal__container{
+    margin: auto;
+    border-radius: 6px;
+    padding: 1em 1em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;    
+}
+
+.modal__container__crud{
+    width: 75vw;
+    height: 75vh;
+    border: var(--black-mondrian) solid 0.2rem;
+    background-color: var( --yellow-mondrian);
+}
+
+.modal__title{
+    font-size: 2.5rem;/*ver esta medida*/
+}
+.modal__paragraph{
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+}
+.modal__close, 
+.modal__close__soft, 
+.modal__close__contacto, 
+.modal__close__proyectos, 
+.modal__close__experiencia, 
+.modal__close__hobbies, 
+.modal__close__languages, 
+.modal__close__education, 
+.modal__close__mondrian, 
+.modal__close__crud{
+    text-decoration: none;
+    color: var(--white-mondrian);
+    background-color: var(--red-mondrian);
+    padding: 1em 3em;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal__close:hover,
+.modal__close__soft:hover, 
+.modal__close__contacto:hover, 
+.modal__close__proyectos:hover, 
+.modal__close__experiencia:hover, 
+.modal__close__hobbies:hover,
+.modal__close__languages:hover, 
+.modal__close__education:hover, 
+.modal__close__mondrian:hover, 
+.modal__close__crud:hover{
+    color: var(--red-mondrian) ;
+    background-color: var(--white-mondrian);
+}
+
+
+
+
+
+

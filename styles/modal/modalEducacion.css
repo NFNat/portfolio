@@ -1,0 +1,7 @@
+
+.modal__container__education{
+    width: 75vw;
+    height: 75vh;
+    border: var(--black-mondrian) solid 0.2rem;
+    background-color: var( --red-mondrian);
+}

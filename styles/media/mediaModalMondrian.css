@@ -1,0 +1,184 @@
+@media  screen and (min-width: 1024px) {
+    .modal__tiitulo__mondrian {   
+        margin-top: -3rem;  
+       }
+       
+       .modal__cuerpo__mondrian {
+          font-size: 1.2rem;
+          line-height: 1.7rem;
+          padding-bottom: 1rem;
+       }
+       
+       .modal__link__mondrian {
+        font-size: 1.2rem;
+          line-height: 1.5rem;
+       }
+       .modal__container__mondrian{
+        width: 70vw;
+        height: 80vh;
+       }
+         
+}
+
+@media  screen and (min-width: 768px) and (max-width:1023px) {
+
+    .modal__tiitulo__mondrian {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: -2rem;
+      }
+
+      .modal__cuerpo__mondrian {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+      }
+
+      .modal__link__mondrian {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+      }
+
+      .modal__pie__mondrian {
+        margin-top: -4rem;
+      }
+      .pinturas {
+        width: 70%; 
+      border: #a7a7a7 solid 0.2rem;
+      }
+      .imagen__1,
+      .imagen__2,
+      .imagen__3,
+      .imagen__4,
+      .imagen__5,
+      .imagen__6,
+      .imagen__7,
+      .imagen__8,
+      .imagen__9,
+      .imagen__10  {       
+      font-size: 0.7rem;       
+    }
+    .modal__container__hard{
+      width: 90vw;
+      height: 90vh;
+  }
+
+}
+@media  screen and (min-width: 480px) and (max-width:767px) {
+  
+    .modal__tiitulo__mondrian {
+        font-size: 1.5rem;
+    
+     font-weight: bold;
+     margin-top: -2rem;
+    }
+    
+    .modal__cuerpo__mondrian {
+       font-size: 1.2rem;
+       line-height: 1.3rem;
+       margin-top: -2rem;
+    }
+    
+    .modal__link__mondrian {        
+     font-size: 1.2rem;
+    line-height: 1.3rem;       
+    }
+    
+    .modal__pie__mondrian {
+      margin-top: -4rem;   
+          
+    }
+    
+    .modal__container__mondrian{
+     width: 70vw;
+     height: 80vh;
+    }
+    
+    
+    .personal__picture__img{          
+      max-width: 15rem;
+    }
+    .pinturas {
+      width: 70%; 
+     border: #a7a7a7 solid 0.2rem;
+     
+     
+    }
+    .imagen__1,
+      .imagen__2,
+      .imagen__3,
+      .imagen__4,
+      .imagen__5,
+      .imagen__6,
+      .imagen__7,
+      .imagen__8,
+      .imagen__9,
+      .imagen__10  {  
+       font-size: 0.5rem;
+    }
+}
+
+@media  screen and (max-width: 480px)  {
+      
+    .modal__tiitulo__mondrian {
+        font-size: 1rem;
+     padding: 0rem;
+     font-weight: bold;
+     margin-top: -2rem;
+   
+   }
+   
+   .modal__cuerpo__mondrian {
+       font-size: 1rem;
+       line-height: 1rem;
+       margin-top: -2rem;
+   
+   }
+   
+   .modal__link__mondrian {
+        
+     font-size: 1rem;
+       line-height: 1rem;
+       margin-top: -2rem;
+   }
+   
+   .modal__container__mondrian{
+     width: 70vw;
+     height: 80vh;
+     
+     
+   }
+   
+   .modal__pie__mondrian {
+     margin-top: -4.1rem;
+   
+         
+   }
+   
+   .personal__picture__img{
+         
+     max-width: 10rem; 
+     
+   }
+   .pinturas {
+     width: 70%; 
+    border: #a7a7a7 solid 0.2rem;
+    
+    
+   }
+   .imagen__1,
+     .imagen__2,
+     .imagen__3,
+     .imagen__4,
+     .imagen__5,
+     .imagen__6,
+     .imagen__7,
+     .imagen__8,
+     .imagen__9,
+     .imagen__10  {   
+     
+      font-size: 0.5rem;
+        
+   }
+   
+   
+}

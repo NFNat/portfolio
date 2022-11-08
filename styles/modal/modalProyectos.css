@@ -1,0 +1,90 @@
+
+
+
+.modal__container__proyectos{
+    width: 75vw;
+    height: 75vh;
+    border: var(--black-mondrian) solid 0.2rem;
+    background-color: var( --blue-mondrian);
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "modal__cotainer__proyecto1 modal__cotainer__proyecto2 modal__cotainer__proyecto3"
+    "modal__cotainer__proyecto4 modal__cotainer__proyecto5 modal__cotainer__proyecto6"
+    "modal__proyecto__parrafo modal__proyecto__parrafo modal__proyecto__parrafo";
+   
+}
+
+.modal__cotainer__proyecto1 { grid-area: modal__cotainer__proyecto1; }
+.modal__cotainer__proyecto2 { grid-area: modal__cotainer__proyecto2; }
+.modal__cotainer__proyecto3 { grid-area: modal__cotainer__proyecto3; }
+.modal__cotainer__proyecto4 { grid-area: modal__cotainer__proyecto4; }
+.modal__cotainer__proyecto5 { grid-area: modal__cotainer__proyecto5; }
+.modal__cotainer__proyecto6 { grid-area: modal__cotainer__proyecto6; }
+
+
+
+.modal__proyecto__parrafo {
+    grid-area: modal__proyecto__parrafo;
+    padding: 0.5rem ;
+}
+.modal__proyecto__visitar{
+    padding: 1rem;
+}
+
+.modal__container__proyecto1 {
+    background-color: var(--white-mondrian);
+    color: var(--blue-mondrian);
+    
+}
+
+.modal__container__proyecto2 {
+    background-color: var(--yellow-mondrian);
+   color: var(--red-mondrian);
+}
+
+.modal__container__proyecto3 {
+    background-color: var(--black-mondrian);
+    color: var(--yellow-mondrian);
+    
+}
+
+
+.modal__container__proyecto4 {
+    background-color: var(--red-mondrian);
+    color: var(--white-mondrian);
+    
+}
+.modal__container__proyecto5 {
+    background-color: var(--blue-mondrian);
+    
+}
+.modal__container__proyecto6 {
+    background-color: var(--white-mondrian);
+    color:var(--red-mondrian);
+    
+}
+
+.modal__container__proyecto1,
+.modal__container__proyecto2,
+.modal__container__proyecto3,
+.modal__container__proyecto4,
+.modal__container__proyecto5,
+.modal__container__proyecto6{
+    border: 0.5rem solid var(--black-mondrian);
+    padding: 2rem;
+    transition: 600ms;
+}
+
+
+
+.modal__container__proyecto1:hover,
+.modal__container__proyecto2:hover,
+.modal__container__proyecto3:hover,
+.modal__container__proyecto4:hover,
+.modal__container__proyecto5:hover,
+.modal__container__proyecto6:hover{
+   transform: scale(1.1);
+} 

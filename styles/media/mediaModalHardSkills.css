@@ -1,0 +1,37 @@
+@media  screen and (min-width: 1024px) {
+
+}
+
+@media  screen and (min-width: 768px) and (max-width:1023px) {
+
+}
+@media  screen and (min-width: 480px) and (max-width:767px) {
+    .hard__skills__item {
+        padding: 1rem;  
+      }
+      
+      .modal__container__hard{
+        width: 90vw;
+        height: 90vh;
+      }
+      
+      .hard__skills__icon{
+        padding: 0.5rem;
+        font-size: 3rem;
+        width: 30%;
+      } 
+      .hard__skills__icon__lims{
+        width: 70%;
+      }
+      .hard__skills__text{
+        padding: 1rem;
+        font-size: 1rem;
+      }
+}
+
+@media  screen and (max-width: 480px)  {
+  
+    .hard__skills__icon__lims{
+        width: 100%;
+      }
+}

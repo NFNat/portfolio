@@ -11,8 +11,29 @@
 
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/modal.css">
-    <link rel="stylesheet" href="./styles/media.css">
+   
+    <link rel="stylesheet" href="./styles/modal/modal.css">
+    <link rel="stylesheet" href="./styles/modal/modalHobbies.css">
+    <link rel="stylesheet" href="./styles/modal/modalContacto.css">
+    <link rel="stylesheet" href="./styles/modal/modalEducacion.css">
+    <link rel="stylesheet" href="./styles/modal/modalExperiencia.css">
+    <link rel="stylesheet" href="./styles/modal/modalHardSkills.css">
+    <link rel="stylesheet" href="./styles/modal/modalSoftSkills.css">
+    <link rel="stylesheet" href="./styles/modal/modalIdiomas.css">
+    <link rel="stylesheet" href="./styles/modal/modalMondrian.css">
+    <link rel="stylesheet" href="./styles/modal/modalProyectos.css">
+
+    <link rel="stylesheet" href="./styles/media/media.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalContacto.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalEducacion.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalExperiencia.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalHardSkills.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalHobbies.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalIdiomas.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalMondrian.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalProyectos.css">
+    <link rel="stylesheet" href="./styles/media/mediaModalSoftSkills.css">
+
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     
     <title>Natalia Fuoco</title>
@@ -21,15 +42,20 @@
 <div class="container">
 
     <div class="blanco1">
-      <marquee class="texto1" direction="">Página en construccion</marquee>
+     
     </div>
+
+
     <div class="blanco2"></div>
 
+
+    <!-- Descargar CV -->
     <div class="donwnload__cv">
       <a href="./assets/Natalia Fuoco Resume.pdf" download="./assets/Natalia Fuoco Resume.pdf"
         title="Descargar pdf de mi CV">Descargar CV</a>
     </div>
 
+    <!-- datos personales -->
     <div class="personal">
       <div class="personal__picture">
         <img class="personal__picture__img"src="./assets/Hola.png" alt=""> 
@@ -40,12 +66,12 @@
         <div class="personal_data__profesion">Web Developer Full Stack</div> 
       </div>
     </div>
-
-
+    <!-- About me -->
     <div class="about-me">      
       Soy desarrolladora web radicada en Argentina. Me apasionan los desafíos y el aprendizaje constante. Cuando no estoy resolviendo algún problema estoy pintando 😊 porque la pintura es mi otra pasión.
     </div>
     
+
     <div class="hard-skills"> Hard SKills </div> <!--Contenido en un modal-->
     <div class="soft-skills ">Soft Skills</div> <!---Contenido en un modal-->
     <div class="contact" contact> contacto </div> <!---Contenido en un modall-->
@@ -56,8 +82,6 @@
 
 
     <!-- Clima -->
-
-
     <div class="crud">
        <div class="temp">
           <div id="ubicacion"></div>
@@ -71,9 +95,7 @@
         </div>
    
     </div> 
-    
-    
-    
+
     <div class="blanco3"></div>
     <div class="hobbies">hobbies</div> <!---Contenido en un modal -->
     <div class="mondrian">mondrian </div>  <!---Contenido en un modal -->
@@ -107,39 +129,40 @@
     </div>
 
 
-    <div class="education" education>educacion
-    </div> <!---Contenido en un modal -->
-
+    <div class="education" education>educacion </div> <!---Contenido en un modal -->
     <div class="blanco5"></div>
 
-    <div class="footer">
-      
-      Natalia Fuoco &copy 2022</div>
+    <div class="footer">      
+      Natalia Fuoco &copy 2022
+      <marquee class="texto1" direction="">Página en construccion</marquee>
+    </div>
   </div>
 
+    <!--------------------------------------------->
+    <!----------- Area de Modales  ---------------->
+    <!--------------------------------------------->
 
   <!-- modal para hard skills -->
   <section class="modal__Hard">
     <div class="modal__container__hard modal__container">
-          <ul class= "hard__skills__lista">
-            <li class="hard__skills__item" > <i class="fa-brands fa-html5 hard__skills__icon "></i><h2 class="hard__skills__texto" >HTML5 </h2> </li>
-            <li class="hard__skills__item" > <i class=" fa-brands fa-css3-alt hard__skills__icon "></i><h2 class="hard__skills__texto" >CSS3 </h2> </li>
-            <li class="hard__skills__item" > <i class=" fa-brands fa-square-js hard__skills__icon "></i><h2 class="hard__skills__texto" >Javascript </h2> </li>
-            <li class="hard__skills__item" > <i class=" fa-brands fa-bootstrap hard__skills__icon "></i><h2 class="hard__skills__texto" > Bootstrap </h2> </li>
-            <li class="hard__skills__item" > <img src="./assets/iconos/icons8-typescript-96.png" class="  hard__skills__icon "></img><h2 class="hard__skills__texto" > TypeScript </h2> </li>
-            <li class="hard__skills__item" > <i class=" fa-brands fa-angular hard__skills__icon "></i><h2 class="hard__skills__texto" > Angular</h2> </li>
-            <li class="hard__skills__item" > <i class=" fa-brands fa-git hard__skills__icon "></i><h2 class="hard__skills__texto" > GIT</h2> </li>
-            <li class="hard__skills__item" > <i class=" fa-brands fa-java hard__skills__icon "></i><h2 class="hard__skills__texto" > Java </h2> </li>
-            <li class="hard__skills__item" > <img src="./assets/iconos/icons8-mysql-logo-96.png" class=" hard__skills__icon "></img><h2 class="hard__skills__texto" > MySQL</h2> </li>
-            <li class="hard__skills__item" > <img src="./assets/iconos/icons8-spring-logo-80.png" class=" hard__skills__icon "></img><h2 class="hard__skills__texto" > SringBoot</h2> </li>
-           
-          </ul>
-          
-          
-
+      
+        <div class="hard__skills__item hard__skills__item1"><i class="fa-brands fa-html5 hard__skills__icon "></i><h2 class="hard__skills__texto" >HTML5 </h2></div>
+        <div class="hard__skills__item hard__skills__item2"> <i class=" fa-brands fa-css3-alt hard__skills__icon "></i><h2 class="hard__skills__texto" >CSS3 </h2></div>
+        <div class="hard__skills__item hard__skills__item3"><i class=" fa-brands fa-square-js hard__skills__icon "></i><h2 class="hard__skills__texto" >Javascript </h2></div>
+        <div class="hard__skills__item hard__skills__item4"><i class=" fa-brands fa-bootstrap hard__skills__icon "></i><h2 class="hard__skills__texto" > Bootstrap </h2> </div>
+        <div class="hard__skills__item hard__skills__item5"><img src="./assets/iconos/icons8-typescript-96.png" class="  hard__skills__icon__img "></img><h2 class="hard__skills__texto" > TypeScript </h2> </div>
+        <div class="hard__skills__item hard__skills__item6"><i class=" fa-brands fa-angular hard__skills__icon "></i><h2 class="hard__skills__texto" > Angular</h2> </div>
+        <div class="hard__skills__item hard__skills__item7"><i class=" fa-brands fa-git hard__skills__icon "></i><h2 class="hard__skills__texto" > GIT</h2></div>
+        <div class="hard__skills__item hard__skills__item8"><i class=" fa-brands fa-java hard__skills__icon "></i><h2 class="hard__skills__texto" > Java </h2></div>
+        <div class="hard__skills__item hard__skills__item9"><img src="./assets/iconos/icons8-mysql-logo-96.png" class=" hard__skills__icon__img "></img><h2 class="hard__skills__texto" > MySQL</h2></div>
+        <div class="hard__skills__item hard__skills__item10"><img src="./assets/iconos/icons8-spring-logo-80.png" class=" hard__skills__icon__img "></img><h2 class="hard__skills__texto" > SpringBoot</h2> </div>
+        <div class="hard__skills__item hard__skills__item11"><img src="./assets/iconos/icons8-sap-100.png" class=" hard__skills__icon__img " alt=""></img> <h2 class="hard__skills__texto" > SAP</h2></div>
+        <div class="hard__skills__item hard__skills__item12"><img src="./assets/iconos/7126labware-lims.large (2) (1).png" class=" hard__skills__icon__lims"alt=""><h2 class="hard__skills__texto" > LIMS</h2></div>
+       <div class="modal__close__hard"><a href="" class="modal__close">Cerrar</a></div>
         
-        <a href="" class="modal__close">Cerrar</a>
+        
     </div>
+    
   </section>
 
     <!-- modal para soft skills -->
@@ -163,34 +186,82 @@
 
     <!-- modal para proyectos -->
     <section class="modal__Proyectos ">
+      
       <div class="modal__container__proyectos modal__container">
-        <marquee behavior="" direction=""><h1 class="hard__skills__item hard__skills__texto">///////// En construcción //////</h1></marquee>
-        <ul class= "hard__skills__lista">
-          
-          <li class="hard__skills__item hard__skills__texto" >
+        
+        
+          <div class="modal__container__proyecto1 hard__skills__item hard__skills__texto">
             <h2 class="hard__skills__texto__titulo">Porfolio Web </h2>
-            <!-- <p> realizado como trabajo integreador de Argentina Programa.El deploy se encuentra realizado en Firebase, CleverClaud y Heroku. En caso de querer investigar la funcionalidad de la edición solicitar usuario y contraseña. Repositorio en GitHub : Front end: https://github.com/NFNat/PortfolioAngular Backend: https://github.com/NFNat/BackEnd-Portfolio</p> -->
-            <a class="hard__skills__texto__link" href="https://frontendnf.web.app/portfolio" target="_blank"> Visitar</a></li>
-
-          <li class="hard__skills__item hard__skills__texto" >
+            
+            <a class="hard__skills__texto__link modal__proyecto__visitar" href="https://frontendnf.web.app/portfolio" target="_blank"> Visitar</a>
+            <p class="modal__proyecto__parrafo"><a href="https://github.com/NFNat/PortfolioAngular" target="_blank">  Front End: <i class="fa-brands fa-github"></i>
+            </a> <a href="https://github.com/NFNat/BackEnd-Portfolio" target="_blank"> / Back End: <i class="fa-brands fa-github"></i></a> </p>
+             
+            
+          </div>
+          <div class="modal__container__proyecto2 hard__skills__item hard__skills__texto">
             <h2 class="hard__skills__texto__titulo"> Placatek</h2> 
-            <!-- <p>Pagina comercial de fabrica de amoblamientos. Front end con Angular y Boostrap. Deploy en Firebase. En construcción Repositorio en GitHub: https://github.com/NFNat/placate</p>-->
-              <a class="hard__skills__texto__link" href="https://placatek.com.ar/home" target="_blank">Visitar</a></li> 
-          <li class="hard__skills__item hard__skills__texto" >
+            <a class="hard__skills__texto__link" href="https://placatek.com.ar/home" target="_blank">Visitar</a>
+            <p class="modal__proyecto__parrafo"> <a href="https://github.com/NFNat/placatek"> Repositorio: <i class="fa-brands fa-github"></i></a> </p>
+
+          </div>
+          <div class="modal__container__proyecto3 hard__skills__item hard__skills__texto">
             <h2 class="hard__skills__texto__titulo">Encriptador de textos</h2>
-            <!-- <p>realizado en conxto del primer challenge de Alura ONE.  Deploy en GitHub pages Reepositorio: https://github.com/NFNat/encriptador</p> -->
-            <a class="hard__skills__texto__link" href="https://nfnat.github.io/encriptador/" target="_blank">Visitar</a></li>
-          <li class="hard__skills__item hard__skills__texto" >
+            <a class="hard__skills__texto__link" href="https://nfnat.github.io/encriptador/" target="_blank">Visitar</a>
+            <p class="modal__proyecto__parrafo"> <a href="https://github.com/NFNat/encriptador"> Repositorio: <i class="fa-brands fa-github"></i></a> </p>
+            
+
+          </div>
+          <div class="modal__container__proyecto4 hard__skills__item hard__skills__texto">
             <h2 class="hard__skills__texto__titulo">Ahorcado (juego)</h2>
-             <!-- <p>en el contexto del segundo challenge de Alura ONE. Deploy en GitHub pages Repositorio : https://github.com/NFNat/juegoAhorcado</p> -->
-             <a class="hard__skills__texto__link" href="https://nfnat.github.io/juegoAhorcado/" target="_blank">Visitar</a></li>
+            <a class="hard__skills__texto__link" href="https://nfnat.github.io/juegoAhorcado/" target="_blank">Visitar web</a>
+            <p class="modal__proyecto__parrafo"> <a href="https://github.com/NFNat/juegoAhorcado"> Repositorio: <i class="fa-brands fa-github"></i></a> </p>
+          </div>
+          <div class="modal__container__proyecto5 hard__skills__item hard__skills__texto">
+            <h2 class="hard__skills__texto__titulo">Connect</h2>
+            <a class="hard__skills__texto__link" href="#" target="_blank" title="deploy no realizado - disculpe las molestias">Visitar web</a>
+            <p class="modal__proyecto__parrafo"> <a href="https://github.com/NFNat/connect"> Repositorio: <i class="fa-brands fa-github"></i></a> </p>
+          </div>
+
           
-         
-        </ul>
-          </p>
-          <a href="" class="modal__close__proyectos">Cerrar</a>
+          <div class="modal__container__proyecto6 hard__skills__item hard__skills__texto">
+            <h2 class="hard__skills__texto__titulo"> Punto Inquieto</h2>
+            <a class="hard__skills__texto__link" href="#" target="_blank" title="En etapa de diseño- disculpe las molestias">Visitar web</a>
+            <p class="modal__proyecto__parrafo"> <a href="#" title="En etapa de diseño- disculpe las molestias">  Repositorio: <i class="fa-brands fa-github"></i></a> </p>
+          </div>
+
+
+
+          <div class="modal__proyecto__parrafo"><a href="" class="modal__close__proyectos">Cerrar</a></div>
+        </div>
       </div>
-    </section>
+      </section>
+
+        <!---->
+        <!-- <ul class= "hard__skills__lista"> -->          
+          <!-- <li class="hard__skills__item hard__skills__texto" > -->
+            <!-- <h2 class="hard__skills__texto__titulo">Porfolio Web </h2> -->
+            <!-- <p> realizado como trabajo integreador de Argentina Programa.El deploy se encuentra realizado en Firebase, CleverClaud y Heroku. En caso de querer investigar la funcionalidad de la edición solicitar usuario y contraseña. Repositorio en GitHub : Front end: https://github.com/NFNat/PortfolioAngular Backend: https://github.com/NFNat/BackEnd-Portfolio</p> -->
+            <!-- <a class="hard__skills__texto__link" href="https://frontendnf.web.app/portfolio" target="_blank"> Visitar</a></li> -->
+
+          <!-- <li class="hard__skills__item hard__skills__texto" > -->
+            <!-- <h2 class="hard__skills__texto__titulo"> Placatek</h2>  -->
+            <!-- <p>Pagina comercial de fabrica de amoblamientos. Front end con Angular y Boostrap. Deploy en Firebase. En construcción Repositorio en GitHub: https://github.com/NFNat/placate</p>-->
+              <!-- <a class="hard__skills__texto__link" href="https://placatek.com.ar/home" target="_blank">Visitar</a></li>  -->
+          <!-- <li class="hard__skills__item hard__skills__texto" > -->
+            <!-- <h2 class="hard__skills__texto__titulo">Encriptador de textos</h2> -->
+            <!-- <p>realizado en conxto del primer challenge de Alura ONE.  Deploy en GitHub pages Reepositorio: https://github.com/NFNat/encriptador</p> -->
+            <!-- <a class="hard__skills__texto__link" href="https://nfnat.github.io/encriptador/" target="_blank">Visitar</a></li> -->
+          <!-- <li class="hard__skills__item hard__skills__texto" > -->
+            <!-- <h2 class="hard__skills__texto__titulo">Ahorcado (juego)</h2> -->
+             <!-- <p>en el contexto del segundo challenge de Alura ONE. Deploy en GitHub pages Repositorio : https://github.com/NFNat/juegoAhorcado</p> -->
+             <!-- <a class="hard__skills__texto__link" href="https://nfnat.github.io/juegoAhorcado/" target="_blank">Visitar</a></li> -->
+          
+        <!-- </ul> -->
+          
+          
+          <!-- <marquee behavior="" direction=""><h1 class="hard__skills__item hard__skills__texto">///////// En construcción //////</h1></marquee> -->
+     
 
     <!-- modal para experencia -->
     <section class="modal__Experiencia ">
@@ -359,7 +430,7 @@
     </div>
     </section>
 
-    <!-- modal para crud -->
+    <!-- modal para clima-->
     <section class="modal__Crud ">
       <div class="modal__container__crud modal__container">
           <h2 class="modal__title">Crud</h2>
