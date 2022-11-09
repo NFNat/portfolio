@@ -1,70 +1,18 @@
-
-
-
-.modal__container__proyectos{
-    width: 75vw;
-    height: 75vh;
-    border: var(--black-mondrian) solid 0.2rem;
-    background-color: var( --blue-mondrian);
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-    "modal__cotainer__proyecto1 modal__cotainer__proyecto2 modal__cotainer__proyecto3"
-    "modal__cotainer__proyecto4 modal__cotainer__proyecto5 modal__cotainer__proyecto6"
-    "modal__proyecto__parrafo modal__proyecto__parrafo modal__proyecto__parrafo";
-   
-}
-
-.modal__cotainer__proyecto1 { grid-area: modal__cotainer__proyecto1; }
-.modal__cotainer__proyecto2 { grid-area: modal__cotainer__proyecto2; }
-.modal__cotainer__proyecto3 { grid-area: modal__cotainer__proyecto3; }
-.modal__cotainer__proyecto4 { grid-area: modal__cotainer__proyecto4; }
-.modal__cotainer__proyecto5 { grid-area: modal__cotainer__proyecto5; }
-.modal__cotainer__proyecto6 { grid-area: modal__cotainer__proyecto6; }
-
-
-
-.modal__proyecto__parrafo {
-    grid-area: modal__proyecto__parrafo;
-    padding: 0.5rem ;
-}
-.modal__proyecto__visitar{
-    padding: 1rem;
-}
-
-.modal__container__proyecto1 {
-    background-color: var(--white-mondrian);
-    color: var(--blue-mondrian);
-    
-}
-
-.modal__container__proyecto2 {
-    background-color: var(--yellow-mondrian);
-   color: var(--red-mondrian);
-}
-
-.modal__container__proyecto3 {
+.modal__container__proyectos {
+    width: 95vw;
+    height: 95vh;
     background-color: var(--black-mondrian);
-    color: var(--yellow-mondrian);
-    
-}
-
-
-.modal__container__proyecto4 {
-    background-color: var(--red-mondrian);
-    color: var(--white-mondrian);
-    
-}
-.modal__container__proyecto5 {
-    background-color: var(--blue-mondrian);
-    
-}
-.modal__container__proyecto6 {
-    background-color: var(--white-mondrian);
-    color:var(--red-mondrian);
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.4fr 0.9fr 1fr 1.1fr 0.6fr;
+    gap: 0.7rem 0.7rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "modal__container__proyecto1 modal__container__proyecto1 modal__container__proyecto2 modal__container__proyecto2 modal__container__proyecto2"
+        "modal__container__proyecto1 modal__container__proyecto1 modal__container__proyecto3 modal__container__proyecto3 modal__container__proyecto4"
+        "modal__container__proyecto5 modal__container__proyecto5 modal__container__proyecto3 modal__container__proyecto3 modal__container__proyecto4"
+        "modal__container__proyecto5 modal__container__proyecto5 modal__container__proyecto6 modal__container__proyecto6 modal__container__proyecto6"
+        "modal__close__proyectos__area modal__close__proyectos__area modal__close__proyectos__area modal__close__proyectos__area modal__close__proyectos__area";
 }
 
 .modal__container__proyecto1,
@@ -72,19 +20,313 @@
 .modal__container__proyecto3,
 .modal__container__proyecto4,
 .modal__container__proyecto5,
-.modal__container__proyecto6{
-    border: 0.5rem solid var(--black-mondrian);
-    padding: 2rem;
+.modal__container__proyecto6,
+.modal__close__proyectos__area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     transition: 600ms;
+
+}
+
+.modal__container__proyecto1 {
+    grid-area: modal__container__proyecto1;
+    background-color: var(--white-mondrian);
+    color: var(--blue-mondrian);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "modal__container__proyecto1__titulo modal__container__proyecto1__titulo "
+        "modal__container__proyecto1__web modal__container__proyecto1__web"
+        "modal__container__proyecto1__repo1 modal__container__proyecto1__repo2 ";
+}
+
+.modal__container__proyecto1__titulo,
+.modal__container__proyecto1__web,
+.modal__container__proyecto1__repo1,
+.modal__container__proyecto1__repo2,
+.modal__container__proyecto2__web,
+.modal__container__proyecto2__repo,
+.modal__container__proyecto2__titulo,
+.modal__container__proyecto3__web,
+.modal__container__proyecto3__repo,
+.modal__container__proyecto3__titulo,
+.modal__container__proyecto4__web,
+.modal__container__proyecto4__repo,
+.modal__container__proyecto4__titulo,
+.modal__container__proyecto5__web,
+.modal__container__proyecto5__repo,
+.modal__container__proyecto5__titulo,
+.modal__container__proyecto6__web,
+.modal__container__proyecto6__repo,
+.modal__container__proyecto6__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal__container__proyecto1__titulo {
+    grid-area: modal__container__proyecto1__titulo;
+    font-size: 1.5rem;
+}
+
+.modal__container__proyecto1__web,
+.modal__container__proyecto1__repo1,
+.modal__container__proyecto1__repo2, 
+.modal__container__proyecto2__web,
+.modal__container__proyecto2__repo,
+.modal__container__proyecto3__web,
+.modal__container__proyecto3__repo,
+.modal__container__proyecto4__web,
+.modal__container__proyecto4__repo,
+.modal__container__proyecto5__web,
+.modal__container__proyecto5__repo,
+.modal__container__proyecto6__web,
+.modal__container__proyecto6__repo{
+    width: 100%;
+    height: 100%;
+    transition: 600ms;
+
+}
+
+.modal__container__proyecto1__web {
+    grid-area: modal__container__proyecto1__web;
+    font-size: 1.3rem;
+}
+
+.modal__container__proyecto1__repo1,
+.modal__container__proyecto1__repo2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+
+}
+
+.modal__container__proyecto1__repo1 {
+    grid-area: modal__container__proyecto1__repo1;
+    font-size: 1.3rem;
+}
+
+.modal__container__proyecto1__repo2 {
+    grid-area: modal__container__proyecto1__repo2;
+    font-size: 1.3rem;
+}
+
+.modal__container__proyecto1__web:hover,
+.modal__container__proyecto1__repo1:hover,
+.modal__container__proyecto1__repo2:hover
+{
+    transform: scale(0.95);
+    background-color: var(--red-mondrian);
+   
+}
+
+.modal__container__proyecto2__web:hover,
+.modal__container__proyecto2__repo:hover{
+    transform: scale(0.95);
+    background-color: var(--yellow-mondrian);
+}
+.modal__container__proyecto3__web:hover,
+.modal__container__proyecto3__repo:hover{
+    transform: scale(0.95);
+    background-color: var(--blue-mondrian);
+    color: var(--yellow-mondrian);
+}
+.modal__container__proyecto4__web:hover,
+.modal__container__proyecto4__repo:hover{
+    transform: scale(0.95);
+    background-color: var(--black-mondrian);
+    color: var(--white-mondrian);
+}
+.modal__container__proyecto5__web:hover,
+.modal__container__proyecto5__repo:hover{
+    transform: scale(0.95);
+    background-color: var(--yellow-mondrian);
+    color: var(--blue-mondrian);
+}
+.modal__container__proyecto6__web:hover,
+.modal__container__proyecto6__repo:hover{
+    transform: scale(0.95);
+    background-color: var(--blue-mondrian);
+    color: var(--black-mondrian);
+}
+.modal__container__proyecto2 {
+    grid-area: modal__container__proyecto2;
+    background-color: var(--red-mondrian);
+    color: var(--blue-mondrian);
+
+    grid-area: modal__container__proyecto2;
+    background-color: var(--red-mondrian    );
+    color: var(--blue-mondrian);
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "modal__container__proyecto2__titulo  "
+        "modal__container__proyecto2__web "
+        "modal__container__proyecto2__repo  ";
+}
+.modal__container__proyecto2__titulo {
+    grid-area: modal__container__proyecto2__titulo;
+    font-size: 1.5rem;
+}
+.modal__container__proyecto2__web {
+    grid-area: modal__container__proyecto2__web;
+    font-size: 1.3rem;
+}
+.modal__container__proyecto2__repo {
+    grid-area: modal__container__proyecto2__repo;
+    font-size: 1.3rem;
 }
 
 
 
-.modal__container__proyecto1:hover,
-.modal__container__proyecto2:hover,
-.modal__container__proyecto3:hover,
-.modal__container__proyecto4:hover,
-.modal__container__proyecto5:hover,
-.modal__container__proyecto6:hover{
-   transform: scale(1.1);
-} 
+.modal__container__proyecto3 {
+    grid-area: modal__container__proyecto3;
+    background-color: var(--yellow-mondrian);
+    color: var(--blue-mondrian);
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "modal__container__proyecto3__titulo  "
+        "modal__container__proyecto3__web "
+        "modal__container__proyecto3__repo";
+    }
+
+
+.modal__container__proyecto3__titulo {
+    grid-area: modal__container__proyecto3__titulo;
+    font-size: 1.5rem;
+}
+.modal__container__proyecto3__web {
+    grid-area: modal__container__proyecto3__web;
+    font-size: 1.3rem;
+}
+.modal__container__proyecto3__repo {
+    grid-area: modal__container__proyecto3__repo;
+    font-size: 1.3rem;
+}
+
+
+
+
+.modal__container__proyecto4 {
+    grid-area: modal__container__proyecto4;
+    background-color: var(--white-mondrian);
+    color: var(--blue-mondrian);
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "modal__container__proyecto4__titulo"
+        "modal__container__proyecto4__web"
+        "modal__container__proyecto4__repo";
+
+}
+
+.modal__container__proyecto4__titulo {
+    grid-area: modal__container__proyecto4__titulo;
+    font-size: 1.5rem;
+}
+.modal__container__proyecto4__web {
+    grid-area: modal__container__proyecto4__web;
+    font-size: 1.3rem;
+}
+.modal__container__proyecto4__repo {
+    grid-area: modal__container__proyecto4__repo;
+    font-size: 1.3rem;
+}
+
+
+.modal__container__proyecto5 {
+    grid-area: modal__container__proyecto5;
+    background-color: var(--blue-mondrian);
+    color: var(--yellow-mondrian);
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "modal__container__proyecto5__titulo"
+        "modal__container__proyecto5__web"
+        "modal__container__proyecto5__repo";
+}
+
+.modal__container__proyecto5__titulo {
+    grid-area: modal__container__proyecto5__titulo;
+    font-size: 1.5rem;
+}
+.modal__container__proyecto5__web {
+    grid-area: modal__container__proyecto5__web;
+    font-size: 1.3rem;
+}
+.modal__container__proyecto5__repo {
+    grid-area: modal__container__proyecto5__repo;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+.modal__container__proyecto6 {
+    grid-area: modal__container__proyecto6;
+    background-color: var(--black-mondrian);
+    color: var(--blue-mondrian);
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "modal__container__proyecto6__titulo"
+        "modal__container__proyecto6__web"
+        "modal__container__proyecto6__repo";
+
+}
+
+.modal__container__proyecto6__titulo {
+    grid-area: modal__container__proyecto6__titulo;
+    font-size: 1.5rem;
+}
+.modal__container__proyecto6__web {
+    grid-area: modal__container__proyecto6__web;
+    font-size: 1.3rem;
+}
+.modal__container__proyecto6__repo {
+    grid-area: modal__container__proyecto6__repo;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+.modal__close__proyectos__area {
+    grid-area: modal__close__proyectos__area;
+    background-color: var(--white-mondrian);
+
+}
+
+
+
+
+
+
