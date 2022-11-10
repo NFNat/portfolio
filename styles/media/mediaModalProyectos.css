@@ -7,8 +7,54 @@
 }
 @media  screen and (min-width: 480px) and (max-width:767px) {
 
+    .modal__container__proyecto1__titulo,
+    .modal__container__proyecto2__titulo, 
+    .modal__container__proyecto3__titulo, 
+    .modal__container__proyecto4__titulo, 
+    .modal__container__proyecto5__titulo, 
+    .modal__container__proyecto6__titulo, 
+    .modal__container__proyecto1__web, 
+    .modal__container__proyecto2__web, 
+    .modal__container__proyecto3__web, 
+    .modal__container__proyecto4__web, 
+    .modal__container__proyecto5__web, 
+    .modal__container__proyecto6__web,
+    .modal__container__proyecto1__repo1,
+    .modal__container__proyecto1__repo2,
+    .modal__container__proyecto2__repo,
+    .modal__container__proyecto3__repo,
+    .modal__container__proyecto4__repo,
+    .modal__container__proyecto5__repo,
+    .modal__container__proyecto6__repo
+     {
+       font-size: 1rem;
+    }
+
+
+
 }
 
 @media  screen and (max-width: 480px)  {
-  
+    .modal__container__proyecto1__titulo,
+    .modal__container__proyecto2__titulo, 
+    .modal__container__proyecto3__titulo, 
+    .modal__container__proyecto4__titulo, 
+    .modal__container__proyecto5__titulo, 
+    .modal__container__proyecto6__titulo, 
+    .modal__container__proyecto1__web, 
+    .modal__container__proyecto2__web, 
+    .modal__container__proyecto3__web, 
+    .modal__container__proyecto4__web, 
+    .modal__container__proyecto5__web, 
+    .modal__container__proyecto6__web,
+    .modal__container__proyecto1__repo1,
+    .modal__container__proyecto1__repo2,
+    .modal__container__proyecto2__repo,
+    .modal__container__proyecto3__repo,
+    .modal__container__proyecto4__repo,
+    .modal__container__proyecto5__repo,
+    .modal__container__proyecto6__repo
+     {
+       font-size: 1rem;
+    }
 }

@@ -1,6 +1,78 @@
 .modal__container__soft{
     width: 75vw;
-    height: 75vh;
+    height: 85vh;
     border: var(--black-mondrian) solid 0.2rem;
     background-color: var(--red-mondrian);   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "soft__skills__item1 soft__skills__item2 soft__skills__item3"
+      "soft__skills__item4 soft__skills__item5 soft__skills__item6"
+      "soft__skills__item7 soft__skills__item8 soft__skills__item9"
+      "soft__skills__close soft__skills__close soft__skills__close";
 }
+
+
+.soft__skills__item1,   
+.soft__skills__item2, 
+.soft__skills__item3, 
+.soft__skills__item4, 
+.soft__skills__item5, 
+.soft__skills__item6, 
+.soft__skills__item7, 
+.soft__skills__item8, 
+.soft__skills__item9{
+    color: var(--white-mondrian);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+  .soft__skills__item1 {
+      grid-area: soft__skills__item1;      
+  }
+
+  .soft__skills__item2 {
+      grid-area: soft__skills__item2;
+  }
+
+  .soft__skills__item3 {
+      grid-area: soft__skills__item3;
+  }
+
+  .soft__skills__item4 {
+      grid-area: soft__skills__item4;
+  }
+
+  .soft__skills__item5 {
+      grid-area: soft__skills__item5;
+  }
+
+  .soft__skills__item6 {
+      grid-area: soft__skills__item6;
+  }
+
+  .soft__skills__item7 {
+      grid-area: soft__skills__item7;
+  }
+
+  .soft__skills__item8 {
+      grid-area: soft__skills__item8;
+  }
+
+  .soft__skills__item9 {
+      grid-area: soft__skills__item9;
+  }
+
+  .soft__skills__close {
+      grid-area: soft__skills__close;
+  }
