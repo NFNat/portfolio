@@ -3,12 +3,86 @@
 }
 
 @media  screen and (min-width: 768px) and (max-width:1023px) {
-
+    .soft__skills__item1,   
+    .soft__skills__item2, 
+    .soft__skills__item3, 
+    .soft__skills__item4, 
+    .soft__skills__item5, 
+    .soft__skills__item6, 
+    .soft__skills__item7, 
+    .soft__skills__item8, 
+    .soft__skills__item9,
+    .soft__skills__close{
+       
+        font-size: 1.1rem;
+    }
+    
 }
 @media  screen and (min-width: 480px) and (max-width:767px) {
+
+    .soft__skills__item1,   
+    .soft__skills__item2, 
+    .soft__skills__item3, 
+    .soft__skills__item4, 
+    .soft__skills__item5, 
+    .soft__skills__item6, 
+    .soft__skills__item7, 
+    .soft__skills__item8, 
+    .soft__skills__item9,
+    .soft__skills__close{
+       
+        font-size: 1rem;
+    }
+    .soft__skills__item1 img,   
+    .soft__skills__item2 img, 
+    .soft__skills__item3 img, 
+    .soft__skills__item4 img, 
+    .soft__skills__item5 img, 
+    .soft__skills__item6 img, 
+    .soft__skills__item7 img, 
+    .soft__skills__item8 img, 
+    .soft__skills__item9 img{
+       
+        font-size: 1rem;
+        width: 60%;
+    }
+    
+    
 
 }
 
 @media  screen and (max-width: 480px)  {
-  
+    .modal__container__soft{
+        width: 85vw;
+       
+        
+    }
+
+
+    .soft__skills__item1,   
+    .soft__skills__item2, 
+    .soft__skills__item3, 
+    .soft__skills__item4, 
+    .soft__skills__item5, 
+    .soft__skills__item6, 
+    .soft__skills__item7, 
+    .soft__skills__item8, 
+    .soft__skills__item9,
+    .soft__skills__close{
+       
+        font-size: 1rem;
+    }
+    .soft__skills__item1 img,   
+    .soft__skills__item2 img, 
+    .soft__skills__item3 img, 
+    .soft__skills__item4 img, 
+    .soft__skills__item5 img, 
+    .soft__skills__item6 img, 
+    .soft__skills__item7 img, 
+    .soft__skills__item8 img, 
+    .soft__skills__item9 img{
+       
+        font-size: 1rem;
+        width: 55%;
+    }
 }

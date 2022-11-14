@@ -24,16 +24,33 @@
 .soft__skills__item6, 
 .soft__skills__item7, 
 .soft__skills__item8, 
-.soft__skills__item9{
+.soft__skills__item9,
+.soft__skills__close{
     color: var(--white-mondrian);
+    font-size: 1.3rem;
+    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    height: 100%;
+    width: 70%;
+    
     
     
 }
-
+    .soft__skills__item1 img,   
+    .soft__skills__item2 img, 
+    .soft__skills__item3 img, 
+    .soft__skills__item4 img, 
+    .soft__skills__item5 img, 
+    .soft__skills__item6 img, 
+    .soft__skills__item7 img, 
+    .soft__skills__item8 img, 
+    .soft__skills__item9 img{
+       
+        width: 50%;
+    }
 
 
 
