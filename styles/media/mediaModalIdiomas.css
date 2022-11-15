@@ -3,12 +3,63 @@
 }
 
 @media  screen and (min-width: 768px) and (max-width:1023px) {
-
+    
 }
 @media  screen and (min-width: 480px) and (max-width:767px) {
-
+    .idiomas__img{
+        width: 5rem;
+      }
+      .idiomas__titulo {
+   
+        font-size: 2rem;
+        letter-spacing: 2rem;
+    
+    }
+      .idiomas__titulo h2,
+      .idiomas__item1 h2,
+      .idiomas__item2 h2,
+      .idiomas__item3 h2,  
+      .idiomas__item4 h2{
+       font-size: 1.2rem;
+       }
+       .idiomas__titulo h3,
+       .idiomas__item1 h3,
+       .idiomas__item2 h3,
+       .idiomas__item3 h3,  
+       .idiomas__item4 h3{
+        font-size: 1rem;
+        }
+      
 }
 
 @media  screen and (max-width: 480px)  {
-  
+    .modal__container__languages{
+        width: 85vw;
+        height: 75vh;
+       
+      }
+
+    .idiomas__img{
+        width: 3rem;
+      }
+      .idiomas__titulo {
+   
+        font-size: 1.5rem;
+        letter-spacing: 1.5rem;
+    
+    }
+      .idiomas__titulo h2,
+      .idiomas__item1 h2,
+      .idiomas__item2 h2,
+      .idiomas__item3 h2,  
+      .idiomas__item4 h2{
+       font-size: 0.9rem;
+       }
+       .idiomas__titulo h3,
+       .idiomas__item1 h3,
+       .idiomas__item2 h3,
+       .idiomas__item3 h3,  
+       .idiomas__item4 h3{
+        font-size: 0.8rem;
+        }
 }

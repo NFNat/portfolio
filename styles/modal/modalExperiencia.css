@@ -1,6 +1,79 @@
 .modal__container__experiencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "experience__title experience__title "
+      "experience__item1 experience__item2  "
+      "experience__cv experience__cv "
+      "experience__close experience__close ";
     width: 75vw;
-    height: 75vh;
+    height: 65vh;
     border: var(--black-mondrian) solid 0.2rem;
     background-color: var( --red-mondrian);
 }
+.experience__title {
+    grid-area: experience__title;
+    color: var(--white-mondrian);
+    font-size: 1.9rem;
+    letter-spacing: 2rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.experience__item1 {
+    grid-area: experience__item1;
+    border: 1px solid var(--white-mondrian);
+    border-radius: 0.5rem;
+}
+
+.experience__item2 {
+    grid-area: experience__item2;
+    border: 1px solid var(--white-mondrian);
+    border-radius: 0.5rem;
+    
+}
+
+
+
+.experience__cv {
+    grid-area: experience__cv;
+    height: 100%;
+    width: 100%;
+    color: var(--white-mondrian);
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+}
+
+.experience__close {
+    grid-area: experience__close;
+}
+  
+  .experience__item1,  
+  .experience__item2{
+    height: 100%;
+    color: var(--white-mondrian);
+    font-size: 1.4rem;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-direction: column;
+  }
+  .experience__cv__download:hover{
+    transition: 600ms;
+  }
+  .experience__cv__download:hover{
+   font-weight: bold;
+   font-size: 1.6rem;
+  }

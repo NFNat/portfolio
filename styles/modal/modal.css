@@ -55,7 +55,6 @@
 .modal__close__proyectos, 
 .modal__close__experiencia, 
 .modal__close__hobbies, 
-.modal__close__languages, 
 .modal__close__education, 
 .modal__close__mondrian, 
 .modal__close__crud{
@@ -70,13 +69,25 @@
     transition: background-color .3s;
 }
 
+.modal__close__languages{
+    text-decoration: none;
+    color: var(--white-mondrian);
+    background-color: var(--blue-mondrian);
+    padding: 1em 3em;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
 .modal__close:hover,
 .modal__close__soft:hover, 
 .modal__close__contacto:hover, 
 .modal__close__proyectos:hover, 
 .modal__close__experiencia:hover, 
 .modal__close__hobbies:hover,
-.modal__close__languages:hover, 
+ 
 .modal__close__education:hover, 
 .modal__close__mondrian:hover, 
 .modal__close__crud:hover{
@@ -84,6 +95,10 @@
     background-color: var(--white-mondrian);
 }
 
+.modal__close__languages:hover{
+    color: var(--blue-mondrian) ;
+    background-color: var(--white-mondrian);
+}
 
 
 

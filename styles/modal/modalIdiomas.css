@@ -3,4 +3,70 @@
     height: 75vh;
     border: var(--black-mondrian) solid 0.2rem;
     background-color: var( --yellow-mondrian);
+    color: var(--blue-mondrian);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "idiomas__titulo idiomas__titulo idiomas__titulo idiomas__titulo"
+      "idiomas__item1 idiomas__item2 idiomas__item3 idiomas__item4"
+      "idiomas__item__close idiomas__item__close idiomas__item__close idiomas__item__close";
+  }
+.idiomas__titulo {
+    grid-area: idiomas__titulo;
+    font-size: 2.5rem;
+    letter-spacing: 2rem;
+
 }
+
+.idiomas__item1 {
+    grid-area: idiomas__item1;
+}
+
+.idiomas__item2 {
+    grid-area: idiomas__item2;
+}
+
+.idiomas__item3 {
+    grid-area: idiomas__item3;
+}
+
+.idiomas__item4 {
+    grid-area: idiomas__item4;
+}
+
+
+  .idiomas__titulo,
+  .idiomas__item1,
+  .idiomas__item2,
+  .idiomas__item3,  
+  .idiomas__item4 { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+
+   .idiomas__titulo h2,
+   .idiomas__item1 h2,
+   .idiomas__item2 h2,
+   .idiomas__item3 h2,  
+   .idiomas__item4 h2{
+    font-size: 1.5rem;
+    }
+    .idiomas__titulo h3,
+    .idiomas__item1 h3,
+    .idiomas__item2 h3,
+    .idiomas__item3 h3,  
+    .idiomas__item4 h3{
+     font-size: 1.2rem;
+     }
+  .idiomas__item__close { grid-area: idiomas__item__close; }
+  .idiomas__img{
+    width: 9rem;
+  }
+  
