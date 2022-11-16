@@ -93,5 +93,13 @@
   .icono img {
     width: 30px
   }
+  .languages, 
+  .projects{
+    writing-mode: vertical-lr;
+  }
+.donwnload__cv, 
+.hobbies{
+  font-size: 0.9rem;
+}
 
 }
