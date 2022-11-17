@@ -1,7 +1,72 @@
 .modal__container__contacto{
-    width: 75vw;
-    height: 75vh;
+    width: 50vw;
+    height: 80vh;
+    padding: 1.5rem;
     border: var(--black-mondrian) solid 0.2rem;
     background-color: var( --yellow-mondrian);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+
    
 }
+.form__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+.modal__title__contacto{
+    font-size: 2.2rem;
+    letter-spacing: 1rem;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;   
+    height: 50%;
+    width: 100%;
+    color: var(--blue-mondrian);
+}
+.input {
+    background-color: transparent;
+    border: none;
+    color: var(--blue-mondrian);
+    border-bottom: solid 0.1rem var(--blue-mondrian);
+    width: 90%;
+    height: 20%;
+    
+}
+
+.input::placeholder {
+    text-align: center;    
+    font-size: 1.2em;
+    
+  }
+  
+  .input-message-error{
+    color: var(--red-mondrian);
+  }
+  .input-label{
+    letter-spacing: 1rem;
+    
+  }
+  .input-label__area {
+    letter-spacing: 1rem;
+    margin-bottom: 1rem;
+  }

@@ -6,7 +6,13 @@
 
   }
   @media  screen and (min-width: 480px) and (max-width:767px) {
-
+    .modal__container__contacto{
+      width: 70vw;
+      height: 80vh;
+      
+  
+     
+  }
   }
 
   @media  screen and (max-width: 480px)  {

@@ -84,7 +84,7 @@
     <div class="experience" >Experiencia</div> 
     <div class="hobbies">Hobbies</div> 
     <div class="mondrian">Mondrian </div>
-    <div class="education" education>educacion </div>  
+    <div class="education" education>Educacion </div>  
 
 
 
@@ -138,7 +138,7 @@
      <!------------->
     <div class="footer">      
       Natalia Fuoco &copy 2022
-      <marquee class="texto1" direction="">Página en construccion</marquee>
+     
     </div>
   </div>
 
@@ -195,8 +195,82 @@
        <!------------------------>
     <section class="modal__Contacto " >
       <div class="modal__container__contacto modal__container">
-          <h2 class="modal__title">Contacto</h2>
-          <p class="modal__paragraph"> </p>
+          <h2 class="modal__title__contacto">Contacto</h2>
+         
+          <form action="https://formsubmit.co/natalia_fuoco@hotmail.com" method="POST" class="formulario">
+
+           
+                <div class="input-container ">
+                  <label class="input-label" for="name">Nombre</label>
+                    <input 
+                        name="name" 
+                        id="name" 
+                        class="input" 
+                        type="text" 
+                        placeholder="Nombre" 
+                        required
+                        data-tipo="nombre"
+                        >                    
+                    <span class="input-message-error"></span>
+                </div>
+
+                <div class="input-container ">
+                  <label class="input-label" for="surname">Apellido</label>
+                    <input 
+                        name="surname" 
+                        id="surname" 
+                        class="input" 
+                        type="text" 
+                        placeholder="Apellido" 
+                        required
+                        data-tipo="apellido"
+                        >                    
+                    <span class="input-message-error"></span>
+                </div>
+
+                <div class="input-container">
+                  <label class="input-label" for="email">Email</label>
+                    <input 
+                        name="email" 
+                        id="email" 
+                        class="input" 
+                        type="email" 
+                        placeholder="Email" 
+                        required
+                        data-tipo="email">                   
+                    <span class="input-message-error"></span>
+                </div>
+
+                <div class="input-container">
+                  <label class="input-label__area " for="mensaje">Mensaje</label>
+                  <textarea 
+                  name="mensaje" 
+                  id="mensaje" 
+                  class="input" 
+                  cols="50" 
+                  rows="5"
+                  type="text" 
+                  placeholder="Escriba aqui su mensaje" 
+                  required
+                  data-tipo="mensaje"
+                  
+                  ></textarea>
+                               
+                   
+                </div>
+
+            <input type="submit"  class="modal__close__contacto" value="Enviar">
+          
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+            <input type="hidden" name="_captcha" value="false">
+           
+        </form>
+
+
+
+
+
+       
           <a href="" class="modal__close__contacto">Cerrar</a>
       </div>
     </section>
@@ -386,7 +460,7 @@
         </div>
       </section>
       
-      <!-- modal para idiomas  (Falta)-->
+      <!-- modal para idiomas -->
        <!---------------------------------->
       <section class="modal__Languages ">
         <div class="modal__container__languages modal__container">
@@ -401,13 +475,13 @@
               </div>
             <div class="idiomas__item2">
               <img src="./assets/iconos/hello.png" class="idiomas__img" alt="">
-              <h2>Ingles</h2>
+              <h2>Inglés</h2>
              <h3>Avanzado</h3></div>
             <div class="idiomas__item3"> <img src="./assets/iconos/ola.png" class="idiomas__img" alt="">
-              <h2>Portugues</h2>
+              <h2>Portugués</h2>
             <h3>Intermedio</h3></div>
             <div class="idiomas__item4"> <img src="./assets/iconos/bonjour.png" class="idiomas__img" alt="">
-              <h2>Frances</h2>
+              <h2>Francés</h2>
             <h3>Básico</h3></div>
             <div class="idiomas__item__close"><a href="" class="modal__close__languages"> Cerrar</a></div>
           
@@ -415,7 +489,7 @@
         </div>
       </section>
       
-      <!-- modal para educacion  (Falta)-->
+      <!-- modal para educacion  -->
        <!---------------------------------->
       <section class="modal__Education ">
         <div class="modal__container__education modal__container">
@@ -501,6 +575,7 @@
 
     <script src="https://kit.fontawesome.com/5454830660.js" crossorigin="anonymous"></script>
     <script src="./clima.js"></script>
+    <script src="./formulario.js"></script>
     <script src="https://kit.fontawesome.com/5454830660.js" crossorigin="anonymous"></script>
 <script  src="./code.js"></script>
 </body>
