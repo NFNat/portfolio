@@ -189,55 +189,17 @@ closeModalMondrian.addEventListener('click', ()=>{
     modalMondrian.classList.remove("modal--show")    
 })
 
-// Formulario de contacto
+// Modal mail
 
+const openModalMail = document.querySelector(".boton__send"); 
+const modalMail =document.querySelector(".modal__Crud");
+const closeModalMail = document.querySelector(".modal__close__crud")
 
-
-
-
-
-
-
-
-
-// const nombre = document.getElementById("nombre");
-// const apellido = document.getElementById("apellido");
-// const email = document.getElementById("email");
-// const subject = document.getElementById("subject");
-// const comments = document.getElementById("comments");
-// const form = document.getElementById("form");
-// const parrafo = document.getElementById("warnings");
-
-// const errorNombre = document.getElementById("nombreMensaje");
-// const errorApellido = document.getElementById("apellidoMensaje");
-// const errorEmail = document.getElementById("emailMensaje");
-// const errorAsunto = document.getElementById("subjectMensaje");
-// const errorMensaje = document.getElementById("commentsMensaje");
-
-// form.addEventListener("submit",  e => {
-//     e.preventDefault()
-//     let warnings = "";
-//     // let entrar = false
-//     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
-
-
-//     if(nombre.value.length < 3){
-//         errorNombre.innerHTML = `Ingrese mas de 3 caracteres`        ;       
-//     } 
+openModalMail.addEventListener('click', ()=>{
     
-
-//     if(apellido.value.length < 2){
-//         errorApellido.innerHTML = `Ingrese mas de 2 caracteres`        
-//     }
-//     if (!regexEmail.test(email.value)) {
-//         errorEmail.innerHTML = `Ingrese un email válido`
-//     }
-
-//     if(subject.value.length < 1){
-//         errorAsunto.innerHTML = `Ingrese un asunto`        
-//     }
-//     if(subject.value.length < 1){
-//         errorMensaje.innerHTML = `Ingrese un mensaje`        
-//     }
-    
-// })
+    modalMail.classList.add("modal--show")    
+})
+closeModalMail.addEventListener('click', ()=>{
+    event.preventDefault();
+    modalMail.classList.remove("modal--show")    
+})

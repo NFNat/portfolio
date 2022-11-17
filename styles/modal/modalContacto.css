@@ -70,3 +70,34 @@
     letter-spacing: 1rem;
     margin-bottom: 1rem;
   }
+  .boton__send{
+    background-color: var(--blue-mondrian);
+    border-radius: 0.3rem;
+    color: var(--white-mondrian);
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    transition: 600ms;
+  }
+  .boton__send:hover{
+    background-color: var(--white-mondrian);
+    color: var(--blue-mondrian);
+
+  }
+
+  .modal__container__crud{
+    width: 30vw;
+    height: 30vh;
+    padding: 1.5rem;
+    border: var(--black-mondrian) solid 0.2rem;
+    background-color: var( --blue-mondrian);
+    color: var(--white-mondrian);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+   
+}
