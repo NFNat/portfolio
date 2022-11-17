@@ -57,12 +57,16 @@
       "social-media social-media social-media nav-bar nav-bar nav-bar nav-bar"
       "personal personal personal personal personal personal personal"
       "about-me about-me about-me about-me projects projects languages"
-      "donwnload__cv hard-skills hard-skills soft-skills experience experience crud"
+      "donwnload__cv hard-skills hard-skills soft-skills experience experience mondrian"
       "donwnload__cv contact contact contact education education mondrian"
       "hobbies contact contact contact education education mondrian"
       "footer footer footer footer footer footer footer";
   }
 
+  .crud {
+    display: none;
+    
+  }
 
 
   .personal {
