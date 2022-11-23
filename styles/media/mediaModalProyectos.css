@@ -13,26 +13,38 @@
     .modal__container__proyecto4__titulo, 
     .modal__container__proyecto5__titulo, 
     .modal__container__proyecto6__titulo, 
+    .modal__container__proyecto7__titulo, 
     .modal__container__proyecto1__web, 
     .modal__container__proyecto2__web, 
     .modal__container__proyecto3__web, 
     .modal__container__proyecto4__web, 
     .modal__container__proyecto5__web, 
     .modal__container__proyecto6__web,
+    .modal__container__proyecto7__web,
     .modal__container__proyecto1__repo1,
     .modal__container__proyecto1__repo2,
     .modal__container__proyecto2__repo,
     .modal__container__proyecto3__repo,
     .modal__container__proyecto4__repo,
     .modal__container__proyecto5__repo,
-    .modal__container__proyecto6__repo
+    .modal__container__proyecto6__repo,
+    .modal__container__proyecto7__repo
      {
        font-size: 1rem;
     }
 
-
+    .modal__container__proyecto2__titulo img,
+  .modal__container__proyecto3__titulo img,
+  .modal__container__proyecto5__titulo img{
+  
+    max-width:150px;
 
 }
+}
+
+
+
+
 
 @media  screen and (max-width: 480px)  {
     .modal__container__proyecto1__titulo,
@@ -41,20 +53,31 @@
     .modal__container__proyecto4__titulo, 
     .modal__container__proyecto5__titulo, 
     .modal__container__proyecto6__titulo, 
+    .modal__container__proyecto7__titulo, 
     .modal__container__proyecto1__web, 
     .modal__container__proyecto2__web, 
     .modal__container__proyecto3__web, 
     .modal__container__proyecto4__web, 
     .modal__container__proyecto5__web, 
     .modal__container__proyecto6__web,
+    .modal__container__proyecto7__web,
     .modal__container__proyecto1__repo1,
     .modal__container__proyecto1__repo2,
     .modal__container__proyecto2__repo,
     .modal__container__proyecto3__repo,
     .modal__container__proyecto4__repo,
     .modal__container__proyecto5__repo,
-    .modal__container__proyecto6__repo
+    .modal__container__proyecto6__repo,
+    .modal__container__proyecto7__repo
      {
        font-size: 1rem;
     }
+
+    .modal__container__proyecto2__titulo img,
+.modal__container__proyecto3__titulo img,
+.modal__container__proyecto5__titulo img{
+  
+    max-width:100px;
+
+}
 }
